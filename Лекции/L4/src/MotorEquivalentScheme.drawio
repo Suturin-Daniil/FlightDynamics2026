@@ -1,0 +1,54 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="nT0GUbWp9i4IzCUBVY5h">
+    <mxGraphModel dx="1030" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C2zaCwT0W6NihwYnOkUi-5" edge="1" parent="1" source="C2zaCwT0W6NihwYnOkUi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="C2zaCwT0W6NihwYnOkUi-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2zaCwT0W6NihwYnOkUi-1" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;" value="$$R$$" vertex="1">
+          <mxGeometry height="20" width="100" x="230" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="C2zaCwT0W6NihwYnOkUi-2" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;fillColor=strokeColor;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.electrical.miscellaneous.monocell_battery;direction=north;" value="" vertex="1">
+          <mxGeometry height="100" width="60" x="170" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="C2zaCwT0W6NihwYnOkUi-3" parent="1" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;fontSize=32;perimeter=ellipsePerimeter;" value="M" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="C2zaCwT0W6NihwYnOkUi-4" edge="1" parent="1" source="C2zaCwT0W6NihwYnOkUi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="C2zaCwT0W6NihwYnOkUi-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2zaCwT0W6NihwYnOkUi-6" edge="1" parent="1" source="C2zaCwT0W6NihwYnOkUi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="C2zaCwT0W6NihwYnOkUi-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2zaCwT0W6NihwYnOkUi-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="$$V_{in}$$" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="C2zaCwT0W6NihwYnOkUi-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=11;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="225" y="160" as="sourcePoint" />
+            <mxPoint x="335" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2zaCwT0W6NihwYnOkUi-11" connectable="0" parent="C2zaCwT0W6NihwYnOkUi-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;labelBackgroundColor=none;" value="$$I$$" vertex="1">
+          <mxGeometry relative="1" x="0.2242" y="-1" as="geometry">
+            <mxPoint x="-12" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,66 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
+  <diagram name="Page-1" id="6JhymfrtsGQxQpcG7t_d">
+    <mxGraphModel dx="1042" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sCH_bNwBKcyUQRJdBsNN-1" target="sCH_bNwBKcyUQRJdBsNN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-7" value="$$\omega_{b/i}^{b}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=14;" vertex="1" connectable="0" parent="sCH_bNwBKcyUQRJdBsNN-6">
+          <mxGeometry x="-0.2686" y="-2" relative="1" as="geometry">
+            <mxPoint x="6" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-1" value="ДУС" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="282.5" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sCH_bNwBKcyUQRJdBsNN-2" target="sCH_bNwBKcyUQRJdBsNN-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-2" value="Составление матрицы $$\Omega_{b/i}^{b}$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sCH_bNwBKcyUQRJdBsNN-3" target="sCH_bNwBKcyUQRJdBsNN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-3" value="Матричное умножение" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="470" y="282.5" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sCH_bNwBKcyUQRJdBsNN-4" target="sCH_bNwBKcyUQRJdBsNN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-15" value="$$R_i^b$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=14;" vertex="1" connectable="0" parent="sCH_bNwBKcyUQRJdBsNN-14">
+          <mxGeometry x="-0.1156" relative="1" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="sCH_bNwBKcyUQRJdBsNN-4" target="sCH_bNwBKcyUQRJdBsNN-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="333" />
+              <mxPoint x="660" y="372" />
+              <mxPoint x="450" y="372" />
+              <mxPoint x="450" y="328" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-4" value="$$\frac{1}{s}$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="590" y="272.5" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-5" value="$$\phi = atan2(r_{23}, r_{33})$$&lt;div&gt;$$\theta = -arcsin(r_{13})$$&lt;/div&gt;&lt;div&gt;$$\psi = atan2(r_{12}, r_{11})$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="690" y="267.5" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-9" value="-1" style="triangle;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.359;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sCH_bNwBKcyUQRJdBsNN-9" target="sCH_bNwBKcyUQRJdBsNN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sCH_bNwBKcyUQRJdBsNN-18" value="Извлечение углов ориентации" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="360" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

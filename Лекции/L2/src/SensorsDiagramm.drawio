@@ -1,0 +1,110 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
+  <diagram name="Page-1" id="bcM_HmZOv8LxNm1_B9fh">
+    <mxGraphModel dx="1042" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-1" value="Приемник воздушного давления (ПВД)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-2" value="Датчик угловых скоростей (ДУС)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="00XP5DQg3nxKhbOs4zfH-3" target="00XP5DQg3nxKhbOs4zfH-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-19" value="$$(f_x, f_y, f_z)^T$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="00XP5DQg3nxKhbOs4zfH-11">
+          <mxGeometry x="-0.5738" relative="1" as="geometry">
+            <mxPoint x="21" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-3" value="Акселерометр" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-5" value="Магнетометр" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-6" value="GPS" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="00XP5DQg3nxKhbOs4zfH-7" target="00XP5DQg3nxKhbOs4zfH-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-7" value="Сторонние источники информации" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.016;entryY=0.294;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="00XP5DQg3nxKhbOs4zfH-2" target="00XP5DQg3nxKhbOs4zfH-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="378.3599999999999" y="229.03999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="377" y="170" />
+              <mxPoint x="377" y="172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-18" value="$$(p, q, r)^T$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="00XP5DQg3nxKhbOs4zfH-12">
+          <mxGeometry x="-0.7377" y="1" relative="1" as="geometry">
+            <mxPoint x="27" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.711;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="00XP5DQg3nxKhbOs4zfH-5" target="00XP5DQg3nxKhbOs4zfH-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379" y="271.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-20" value="$$\chi$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="00XP5DQg3nxKhbOs4zfH-14">
+          <mxGeometry x="-0.7793" y="-2" relative="1" as="geometry">
+            <mxPoint x="30" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-24" value="Навигационное решение" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="115" width="120" height="270" as="geometry">
+            <mxRectangle x="580" y="155" width="180" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-25" value="Положение: $$\vec{r} = (p_n, p_e, p_d)^T$$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="00XP5DQg3nxKhbOs4zfH-24">
+          <mxGeometry y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-26" value="Скорость: $$\vec{V_{g}^b} = (u, v, w)^T$$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="00XP5DQg3nxKhbOs4zfH-24">
+          <mxGeometry y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-27" value="Ориентация: $$\vec{\Phi} = (\phi, \theta, \psi)^T$$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="00XP5DQg3nxKhbOs4zfH-24">
+          <mxGeometry y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-43" value="Угловая скорость: $$\vec{\omega^{b}_{b/i}} = (p, q, r)^T$$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="00XP5DQg3nxKhbOs4zfH-24">
+          <mxGeometry y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="60" width="180" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.019;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="00XP5DQg3nxKhbOs4zfH-1" target="00XP5DQg3nxKhbOs4zfH-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-36" value="$$V_a$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="00XP5DQg3nxKhbOs4zfH-32">
+          <mxGeometry x="-0.103" y="-2" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.919;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="00XP5DQg3nxKhbOs4zfH-6" target="00XP5DQg3nxKhbOs4zfH-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-35" value="$$V_g, \lambda, \phi$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="00XP5DQg3nxKhbOs4zfH-33">
+          <mxGeometry x="-0.0263" y="-1" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-37" value="Микроконтроллер&lt;div&gt;(MCU)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-38" value="Алгоритмы счисления траектории и фильтрации показаний датчиков" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="00XP5DQg3nxKhbOs4zfH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.734;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="00XP5DQg3nxKhbOs4zfH-29" target="00XP5DQg3nxKhbOs4zfH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
