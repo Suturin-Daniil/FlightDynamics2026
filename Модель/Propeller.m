@@ -12,4 +12,7 @@ Prop.CT2 = -0.1079;
 Prop.pitch = 8*25.2 / 1000;
 Prop.diameter = 11*25.2 / 1000;
 
+%Положение винта относительно ЦМ
+Prop.rp = [-0.4;0;0];
+
 save("Prop.mat", "Prop", '-mat');
