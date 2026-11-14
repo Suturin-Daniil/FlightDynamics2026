@@ -1,6 +1,11 @@
 function OUTPUT = Propulsion(INPUT)
 Vin = INPUT(4); % напряжение на моторе
 
+if (Vin == 0)
+    OUTPUT = [0;0;0;0;0;0];
+    return
+end
+
 Va = INPUT(5); % воздушная скорость
 
 alpha = INPUT(6); beta = INPUT(7);
@@ -27,9 +32,10 @@ c = rho*D^3*Va^2*Prop.CQ2 + Mot.Kq*Mot.i0 - Mot.Kq*Vin/Mot.R;
 Omega = (-b + sqrt(b^2-4*a*c))/(2*a); % Угловая скорость вращения винта
 if Omega < 0
     Omega = 0;
+    J = 0;
+else
+    J = 2*pi*Va/(Omega*D); % поступь винта. Можно Va_new использовать
 end
-
-J = 2*pi*Va/(Omega*D); % поступь винта. Можно Va_new использовать
 
 Thrust = rho*D^4/(4*pi^2)*Omega^2*(Prop.CT0 + Prop.CT1*J + Prop.CT2*J^2);
 Torque = rho*D^5/(4*pi^2)*Omega^2*(Prop.CQ0 + Prop.CQ1*J + Prop.CQ2*J^2);

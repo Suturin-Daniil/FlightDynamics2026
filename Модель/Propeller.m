@@ -9,10 +9,10 @@ Prop.CT1 = -0.06044;
 Prop.CT2 = -0.1079;
 
 % Диаметр и шаг винта
-Prop.pitch = 8*25.2 / 1000;
-Prop.diameter = 11*25.2 / 1000;
+Prop.pitch = 10*25.2 / 1000;
+Prop.diameter = 20*25.2 / 1000;
 
 %Положение винта относительно ЦМ
-Prop.rp = [-0.4;0;0];
+Prop.rp = [-0.5;0;0];
 
 save("Prop.mat", "Prop", '-mat');
