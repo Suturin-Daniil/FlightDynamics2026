@@ -1,0 +1,68 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="b-H2CkcHDlpNtY845J2R">
+    <mxGraphModel dx="436" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-12" edge="1" parent="1" source="_-4wKzk5PbWKpnPr5tbg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_-4wKzk5PbWKpnPr5tbg-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-16" edge="1" parent="1" source="_-4wKzk5PbWKpnPr5tbg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-17" connectable="0" parent="_-4wKzk5PbWKpnPr5tbg-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" value="$$\boldsymbol{u}$$" vertex="1">
+          <mxGeometry relative="1" x="0.0272" y="-2" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;dashed=1;dashPattern=8 8;opacity=50;opacityGroup=1;" value="" vertex="1">
+          <mxGeometry height="265" width="140" x="405" y="187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeWidth=2;dashed=1;dashPattern=8 8;opacity=50;opacityGroup=1;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="250" width="130" x="205" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontStyle=1" value="Модель силовой установки" vertex="1">
+          <mxGeometry height="60" width="120" x="415" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontStyle=1" value="Модель ародинамических сил и моментов" vertex="1">
+          <mxGeometry height="60" width="120" x="415" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontStyle=1" value="Модель гравитационного поля" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-13" edge="1" parent="1" source="_-4wKzk5PbWKpnPr5tbg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_-4wKzk5PbWKpnPr5tbg-8">
+          <mxGeometry relative="1" x="0.1643" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="320.1" />
+              <mxPoint x="760" y="480" />
+              <mxPoint x="160" y="480" />
+              <mxPoint x="160" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-14" connectable="0" parent="_-4wKzk5PbWKpnPr5tbg-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" value="$$\boldsymbol{x}$$" vertex="1">
+          <mxGeometry relative="1" x="0.0033" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Уравнения движения твердого тела" vertex="1">
+          <mxGeometry height="281.25" width="130" x="590" y="179.37" as="geometry" />
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-11" edge="1" parent="1" source="_-4wKzk5PbWKpnPr5tbg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_-4wKzk5PbWKpnPr5tbg-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontStyle=1" value="Модель атмосферы" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontStyle=1" value="Ветер" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_-4wKzk5PbWKpnPr5tbg-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$\dot{x} = f(x,u)$$" vertex="1">
+          <mxGeometry height="20" width="140" x="585" y="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
