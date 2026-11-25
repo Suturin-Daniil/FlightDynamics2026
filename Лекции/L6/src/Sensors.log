@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.18)  19 NOV 2026 01:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.20)  25 NOV 2026 22:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1339,7 +1339,61 @@ Overfull \vbox (7.08159pt too high) detected at line 220
 
 [13
 
- <./ASPD_scheme.png>]
+ <./ASPD_scheme.png>] [14
+
+]
+<Si_production1.png, id=127, 918.43124pt x 517.18219pt>
+File: Si_production1.png Graphic file (type png)
+<use Si_production1.png>
+Package pdftex.def Info: Si_production1.png  used on input line 267.
+(pdftex.def)             Requested size: 318.67209pt x 179.44606pt.
+
+Overfull \vbox (12.00153pt too high) detected at line 267
+ []
+
+[15
+
+ <./Si_production1.png>]
+<Si_production11.png, id=133, 737.75626pt x 505.89pt>
+File: Si_production11.png Graphic file (type png)
+<use Si_production11.png>
+Package pdftex.def Info: Si_production11.png  used on input line 267.
+(pdftex.def)             Requested size: 318.67209pt x 218.51651pt.
+
+Overfull \vbox (14.2719pt too high) detected at line 267
+ []
+
+[16
+
+ <./Si_production11.png>]
+<Si_production2.png, id=139, 537.207pt x 151.767pt>
+File: Si_production2.png Graphic file (type png)
+<use Si_production2.png>
+Package pdftex.def Info: Si_production2.png  used on input line 267.
+(pdftex.def)             Requested size: 398.3386pt x 112.53738pt.
+ [17
+
+ <./Si_production2.png>]
+<Si_production3.png, id=146, 552.8655pt x 192.72pt>
+File: Si_production3.png Graphic file (type png)
+<use Si_production3.png>
+Package pdftex.def Info: Si_production3.png  used on input line 267.
+(pdftex.def)             Requested size: 398.3386pt x 138.85826pt.
+ [18
+
+ <./Si_production3.png>]
+<Si_production4.png, id=153, 325.215pt x 205.36725pt>
+File: Si_production4.png Graphic file (type png)
+<use Si_production4.png>
+Package pdftex.def Info: Si_production4.png  used on input line 267.
+(pdftex.def)             Requested size: 298.75394pt x 188.67065pt.
+
+Overfull \vbox (17.7588pt too high) detected at line 267
+ []
+
+[19
+
+ <./Si_production4.png>]
 \tf@nav=\write6
 \openout6 = `Sensors.nav'.
 
@@ -1358,10 +1412,10 @@ Package rerunfilecheck Info: File `Sensors.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26825 strings out of 467391
- 512397 string characters out of 5415726
- 923922 words of memory out of 5000000
- 55637 multiletter control sequences out of 15000+600000
+ 26876 strings out of 467391
+ 513434 string characters out of 5415726
+ 923923 words of memory out of 5000000
+ 55676 multiletter control sequences out of 15000+600000
  657062 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,123p,620b,687s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1389,9 +1443,9 @@ iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy6.pfb><D:/Program Files/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy7.pfb><D:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
 msy8.pfb>
-Output written on Sensors.pdf (13 pages, 1905516 bytes).
+Output written on Sensors.pdf (19 pages, 2357344 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 481 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
